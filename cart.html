@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="header">
+  <h1>Cart</h1>
+</div>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">About</a></li>
+  <li><a href="#contact">Contact</a>
+    <li><a href="#Gallery">Gallery</a>
+      <li><a href="#checkout">Cart</a>
+  </li>
+</ul>
+
+<div class="checkout-container">
+    <div class="checkout-form">
+        <h2>Checkout</h2>
+        
+        <form>
+            <h3>Shipping Address</h3>
+            <input type="text" placeholder="Full Name" required>
+            <input type="text" placeholder="Address" required>
+            <input type="text" placeholder="City" required>
+            <input type="text" placeholder="ZIP/Postal Code" required>
+            <input type="text" placeholder="Country" required>
+            
+            <h3>Payment Information</h3>
+            <input type="text" placeholder="Card Number" required>
+            <input type="text" placeholder="Expiration Date" required>
+            <input type="text" placeholder="CVV" required>
+            
+            <button type="submit">Complete Purchase</button>
+        </form>
+    </div>
+    
+    <div class="order-summary">
+        <h2>Order Summary</h2>
+        <div class="summary-item">
+            <p>Product Name 1</p>
+            <p>$0.00</p>
+        </div>
+        <div class="summary-item">
+            <p>Product Name 2</p>
+            <p>$0.00</p>
+        </div>
+        <div class="summary-total">
+            <p>Total:</p>
+            <p>$0.00</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
 
