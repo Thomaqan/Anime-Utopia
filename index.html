@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="index.Css" type="text/css"></head>
+<link rel="stylesheet" href="style.css"></head>
 <title>My Personal Webpage
 </title>
   <div class="header">
@@ -9,11 +9,11 @@
 </div>
 
 <ul>
-  <li><a class="active" href="index.html">Home</a></li>
-  <li><a href="aboutme.html">About</a></li>
-  <li><a href="contactme.html">Contact</a>
-    <li><a href="gallery.html">Gallery</a>
-      <li><a href="cart.html">Cart</a>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">About</a></li>
+  <li><a href="#contact">Contact</a>
+    <li><a href="#Gallery">Gallery</a>
+      <li><a href="#checkout">Cart</a>
   </li>
 </ul>
 </head>
@@ -26,16 +26,15 @@
 </font>
 </head>
 <body>
-<style>body {
-  background-image: url('lion (1).png');
-}</style>
 	<h2>My Top Five Animes:</h2>
-	<div>
+	<div id="slider">
         <img class="img" src="Samurai.jpg" >
         <img class="img" src="Jujitsu.webp" >
         <img class="img" src="Kings.png" >
         <img class="img" src="Cautious.jpg" >
         <img class="img" src="Assassination.jpg" >
+    <button id="prev">&lt;</button>
+      <button id="next">&gt;</button>
     </div>  
     </h3><br><br>
     </font>
@@ -63,6 +62,7 @@
 </form> 
 
   </center>
+     <script src="./script.js"></script>
 </body> 
 </body>
 </html>
